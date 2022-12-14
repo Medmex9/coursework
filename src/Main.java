@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Employee[] employee = new Employee[10];
-        employee[0] = new Employee("Уткин", "Василий", "Петрович",
-                75300, 1);
+        employee[0] = new Employee("Уткин", "Василий", "Петрович", 87578, 1);
         employee[1] = new Employee("Прялкин", "Николай", "Александрович",
                 77200, 1);
         employee[2] = new Employee("Жуков", "Дмитрий", "Никодимович",
@@ -28,6 +27,7 @@ public class Main {
         WorkingWithEmployees.maxSalary(employee);
         WorkingWithEmployees.AverageSalary(employee);
         WorkingWithEmployees.FullName(employee);
+
 
 
 
